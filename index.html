@@ -2,18 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sample Movie Streaming Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>
-    This is a place holder
-
-    25 to 35 movies
-    15 to 25 series
-    10 anime
-    OR MORE
-    </p>
+    <header>
+        <div class="logo">Cinemora</div>
+        
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Genre</a>
+            <a href="#">Top IMDB</a>
+            <a href="#">Movies</a>
+            <a href="#">TV Series</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="search-box">
+            <button class="btn-search"><i class="fa fa-search"></i></button>
+            <input type="text" class="input-search" placeholder="Type to Search...">
+        </div>
+        <h2>Featured Movies</h2>
+        <div class="movie-grid">
+            <div class="movie-card">
+                <img src="MV5BZGRiMDE1NTMtMThmZS00YjE4LWI1ODQtNjRkZGZlOTg2MGE1XkEyXkFqcGc@._V1_.jpg" alt="Movie 1">
+                <div class="movie-title">Movie 1</div>
+            </div>
+            <div class="movie-card">
+                <img src="your-name-16846.jpg" alt="Movie 2">
+                <div class="movie-title">Movie 2</div>
+            </div>
+            <div class="movie-card">
+                <img src="9784041084311.webp" alt="Movie 3">
+                <div class="movie-title">Movie 3</div>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>
